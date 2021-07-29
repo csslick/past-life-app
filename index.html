@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>전생 테스트</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section>
+      <h1>재미로 보는 생년월일 전생</h1>
+      <form id="test">
+        <div class="form-group">
+          <label for="year">태어난 년도의 끝번호</label>
+          <input 
+            type="number" 
+            id="year"  
+            min="0" 
+            max="9" 
+            value="0"
+          />
+        </div>
+        <div class="form-group">
+          <label for="month">태어난 월</label>
+          <input 
+            type="number" 
+            id="month" 
+            min="1"
+            max="31"
+            value="1"
+          />
+        </div>
+        <div class="form-group">
+          <label for="date">태어난 날</label>
+          <input 
+            type="number" 
+            id="date" 
+            min="1"
+            max="31"
+            value="1"
+          />
+        </div>
+        <div class="form-group">
+          <button class="sendBtn">결과보기</button>
+        </div>
+      </form>
+      <div id="result">
+        <h3>결과</h3>
+        <p>&nbsp;</p>
+      </div>
+    </section>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
