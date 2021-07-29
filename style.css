@@ -58,3 +58,15 @@ input {
   margin-top: 20px;
   text-align: left;
 }
+
+section footer {
+  padding: 20px;
+  text-align: center;
+}
+
+section footer a {
+  text-decoration: none;
+  color: #444;
+  text-transform: uppercase;
+  font-size: small;
+}
